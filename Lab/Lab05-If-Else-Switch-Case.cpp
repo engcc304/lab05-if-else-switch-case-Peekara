@@ -46,22 +46,22 @@ int main()
     if(score >= 80){
         printf("\n A!");
     }
-    else if(score >= 75){
+    else if(score >= 75&&score<80){
         printf("\n B+!");
     }
-    else if(score >= 70){
+    else if(score >= 70&&score<75){
         printf("\n B!");
     }
-    else if(score >= 65){
+    else if(score >= 65&&score<70){
         printf("\n C+!");
     }
-    else if(score >= 60){
+    else if(score >= 60&&score<65){
         printf("\n C!");
     }
-    else if(score >= 55){
+    else if(score >= 55&&score<60){
         printf("\n D+!");
     }
-    else if(score >= 50){
+    else if(score >= 50&&score<55){
         printf("\n D!");
     }
     else if(score <= 49){
