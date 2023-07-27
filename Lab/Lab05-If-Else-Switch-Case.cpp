@@ -64,11 +64,11 @@ int main()
     else if(score >= 50&&score<55){
         printf("\n D !");
     }
-    else if(score <= 49){
-        printf("\n F !");
+    else if(!score){
+        printf("please enter number only.");
     }
     else{
-        printf("please enter number only.");
+        printf("f");
     }
    
     return 0;
