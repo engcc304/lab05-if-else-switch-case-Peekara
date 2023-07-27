@@ -35,29 +35,43 @@
 
 #include <stdio.h>
 
+
+#include <stdio.h>
+ 
 int main()
 {
     float score;
-
-    printf("Enter score :");
-    scanf("%f",&score);
-    
-    if(score>=80){
-       printf("\nA");
+     
+    printf(" Enter score : ");
+    scanf("%f", &score);
+     
+    if(score >= 80){
+        printf("\n A! ");
     }
-    else if(score>=55){
-        printf("\nD+");
+    else if(score >= 75){
+        printf("\n B+! ");
     }
-    else if(score>=64){
-        printf("\nC");
+    else if(score >= 70){
+        printf("\n B! ");
     }
-    else if(score>=44){
-        printf("\nF");
+    else if(score >= 65){
+        printf("\n C+! ");
     }
-    else
-    {
-    printf("please enter number only.");
+    else if(score >= 60){
+        printf("\n C! ");
     }
-    
-    return 0 ;
-}//end main function
+    else if(score >= 55){
+        printf("\n D+!");
+    }
+    else if(score >= 50){
+        printf("\n D!");
+    }
+    else if(score <= 49){
+        printf("\n F!");
+    }
+    else{
+        printf("please enter number only.");
+    }
+   
+    return 0;
+}
