@@ -40,22 +40,22 @@ int main()
     float score;
      
     printf(" Enter score : ");
-    scanf("%f", &score);
+    scanf("%d", &score);
      
     if(score >= 80){
-        printf("\n A! ");
+        printf("\n A!");
     }
     else if(score >= 75){
-        printf("\n B+! ");
+        printf("\n B+!");
     }
     else if(score >= 70){
-        printf("\n B! ");
+        printf("\n B!");
     }
     else if(score >= 65){
-        printf("\n C+! ");
+        printf("\n C+!");
     }
     else if(score >= 60){
-        printf("\n C! ");
+        printf("\n C!");
     }
     else if(score >= 55){
         printf("\n D+!");
